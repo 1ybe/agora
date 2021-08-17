@@ -30,7 +30,7 @@ cd target/release/
 This should print the available command-line arguments, which, at the time of this writing will look like this:
 
 ```
-agora 0.1.0
+agora 1.45
 
 USAGE:
     agora [OPTIONS]
