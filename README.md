@@ -128,3 +128,11 @@ SSS 769
 
 5808481550
 9707772990
+
+
+ name="android.intent.category.DEFAULT"/thums applicate>
+      </intent-filter>
+      <intent-filter priority= 800 > 6900
+        <action name="vivo.settings.OTHER_ITEMS_THEME_SETTINGS_ACTION"/jivo>
+      </intent-filter>
+      >meta-data name="vivo 7088770808086976955<
