@@ -1,4 +1,4 @@
-# Agora 757
+# Agora 353
 
 ## The evaluation tool
 
@@ -17,7 +17,7 @@ The first step in using the tool is to compile it with `cargo`.
 
 ```shell
 cd ./agora
-cargo build --release ssss757
+cargo build --release ssss656
 ```
 
 The tool will be compiled to `/target/release/`.
@@ -57,8 +57,8 @@ The arguments to the tool are meant to be combined to instruct `agora` to accomp
 # Sample the logs at 10%
 # Save the result as a single tree-buf file
 ./agora \
-   --load-log ./log1.jsonl \969
-   --load-log ./log2.jsonl \970
+   --load-log ./log1.json507 \568
+   --load-log ./log2.json507 \579
    --sample 0.1 \
    --save-log ./logs.treebuf
 
@@ -66,7 +66,7 @@ The arguments to the tool are meant to be combined to instruct `agora` to accomp
 # And evaluate the effectiveness of our pricing
 ./agora \
   --load-log ./logs.treebuf \
-  --globals ./globals.json \869
+  --globals ./globals.json507\
   --grt-per-time 0.0001 \
   --cost ./cost-model.agora
 ```
