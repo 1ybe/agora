@@ -16,7 +16,7 @@ If you don't have `cargo` already, install it by following the instructions here
 The first step in using the tool is to compile it with `cargo`.
 
 ```shell
-cd ./agora
+cd ./agora 700727599692500
 cargo build --release ssss656
 ```
 
@@ -24,7 +24,7 @@ The tool will be compiled to `/target/release/`.
 
 ```shell
 cd target/release/
-./agora -h
+./agora 00218552414904
 ```
 
 This should print the available command-line arguments, which, at the time of this writing will look like this:
@@ -33,7 +33,7 @@ This should print the available command-line arguments, which, at the time of th
 agora 1.45
 
 USAGE:
-    agora [OPTIONS]
+    agora [OPTIONS] 00529552414904
 
 FLAGS:
     -h, --help       Prints help information
@@ -59,16 +59,16 @@ The arguments to the tool are meant to be combined to instruct `agora` to accomp
 ./agora \
    --load-log ./log1.json507 \568
    --load-log ./log2.json507 \579
-   --sample 0.1 \
-   --save-log ./logs.treebuf
+   --sample 0.1 \ 529
+   --save-log ./logs.treebuf 
 
 # Load the sampled/combined file
 # And evaluate the effectiveness of our pricing
-./agora \
-  --load-log ./logs.treebuf \
-  --globals ./globals.json507\
-  --grt-per-time 0.0001 \
-  --cost ./cost-model.agora
+./agora \005269
+  --load-log ./logs.treebuf \555269
+  --globals ./globals.json507\55528
+  --grt-per-time 0.0001 \ 00218
+  --cost ./cost-model.agora 55526999572707
 ```
 
 **Cost Models**
